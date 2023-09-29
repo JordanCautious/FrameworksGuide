@@ -13,7 +13,7 @@
 		EC3C06252AC7536B006651FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3C06242AC7536B006651FE /* Preview Assets.xcassets */; };
 		EC3C062C2AC753A1006651FE /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C062B2AC753A1006651FE /* Framework.swift */; };
 		EC3C06302AC75F4B006651FE /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C062F2AC75F4B006651FE /* FrameworkDetailView.swift */; };
-		EC3C06322AC76950006651FE /* FrameworkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C06312AC76950006651FE /* FrameworkButton.swift */; };
+		EC3C06342AC785C2006651FE /* ContentViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C06332AC785C2006651FE /* ContentViewmodel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		EC3C06242AC7536B006651FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC3C062B2AC753A1006651FE /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		EC3C062F2AC75F4B006651FE /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
-		EC3C06312AC76950006651FE /* FrameworkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkButton.swift; sourceTree = "<group>"; };
+		EC3C06332AC785C2006651FE /* ContentViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewmodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +57,11 @@
 		EC3C061C2AC75369006651FE /* FrameworksGuide */ = {
 			isa = PBXGroup;
 			children = (
-				EC3C061D2AC75369006651FE /* FrameworksGuideApp.swift */,
 				EC3C061F2AC75369006651FE /* ContentView.swift */,
-				EC3C062F2AC75F4B006651FE /* FrameworkDetailView.swift */,
-				EC3C06312AC76950006651FE /* FrameworkButton.swift */,
+				EC3C06332AC785C2006651FE /* ContentViewmodel.swift */,
 				EC3C062B2AC753A1006651FE /* Framework.swift */,
+				EC3C062F2AC75F4B006651FE /* FrameworkDetailView.swift */,
+				EC3C061D2AC75369006651FE /* FrameworksGuideApp.swift */,
 				EC3C06212AC7536B006651FE /* Assets.xcassets */,
 				EC3C06232AC7536B006651FE /* Preview Content */,
 			);
@@ -150,7 +150,7 @@
 				EC3C06202AC75369006651FE /* ContentView.swift in Sources */,
 				EC3C062C2AC753A1006651FE /* Framework.swift in Sources */,
 				EC3C061E2AC75369006651FE /* FrameworksGuideApp.swift in Sources */,
-				EC3C06322AC76950006651FE /* FrameworkButton.swift in Sources */,
+				EC3C06342AC785C2006651FE /* ContentViewmodel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

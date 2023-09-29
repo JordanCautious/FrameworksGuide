@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showingSheet = false
+    
+    @StateObject var viewModel = ContentViewmodel()
     
     let columns: [GridItem] = [GridItem(.flexible()),
                                GridItem(.flexible()),
@@ -21,12 +22,15 @@ struct ContentView: View {
                     ForEach(MockData.frameworks) { framework in
                         FrameworkTitleView(framework: framework)
                             .onTapGesture {
-                                print("Placeholder")
+                                viewModel.selectedFramework = framework
                             }
                     }
                 }
             }
-            .navigationTitle(" 🍎 Apple Frameworks")
+            .navigationTitle(" Apple Frameworks")
+            .sheet(isPresented: $viewModel.isShowingDetailView) {
+                FrameworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework)
+            }
         }
     }
 }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FrameworkDetailView: View {
+    @Environment(\.dismiss) var dismiss
+    @Environment(\.openURL) var openURL
     
     var framework: Framework
     
@@ -17,7 +19,7 @@ struct FrameworkDetailView: View {
                 Spacer()
                 
                 Button() {
-                    
+                    dismiss()
                 } label: {
                     Image(systemName: "xmark")
                         .foregroundColor(Color(.label))
@@ -37,18 +39,19 @@ struct FrameworkDetailView: View {
             
             Spacer()
             
-            Button {
-                // Link area
-            } label: {
-                FrameworkButton(title: "Learn More")
+            Button("Learn More", systemImage: "gear") {
+                openURL(URL(string: framework.urlString)!)
             }
-            
+            .font(.title3)
+            .foregroundColor(.white)
+            .bold()
+            .frame(width: 280, height: 50)
+            .background(.red)
+            .cornerRadius(10)
         }
     }
 }
 
-let Mds = MockData.sampleFramework
-
 #Preview {
-    FrameworkDetailView(framework: Mds)
+    FrameworkDetailView(framework: MockData.sampleFramework)
 }
