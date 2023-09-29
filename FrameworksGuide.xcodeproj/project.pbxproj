@@ -12,7 +12,6 @@
 		EC3C06222AC7536B006651FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3C06212AC7536B006651FE /* Assets.xcassets */; };
 		EC3C06252AC7536B006651FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3C06242AC7536B006651FE /* Preview Assets.xcassets */; };
 		EC3C062C2AC753A1006651FE /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C062B2AC753A1006651FE /* Framework.swift */; };
-		EC3C062E2AC7563C006651FE /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C062D2AC7563C006651FE /* FrameworkTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		EC3C06212AC7536B006651FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC3C06242AC7536B006651FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC3C062B2AC753A1006651FE /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
-		EC3C062D2AC7563C006651FE /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			children = (
 				EC3C061D2AC75369006651FE /* FrameworksGuideApp.swift */,
 				EC3C061F2AC75369006651FE /* ContentView.swift */,
-				EC3C062D2AC7563C006651FE /* FrameworkTitleView.swift */,
 				EC3C062B2AC753A1006651FE /* Framework.swift */,
 				EC3C06212AC7536B006651FE /* Assets.xcassets */,
 				EC3C06232AC7536B006651FE /* Preview Content */,
@@ -145,7 +142,6 @@
 			files = (
 				EC3C06202AC75369006651FE /* ContentView.swift in Sources */,
 				EC3C062C2AC753A1006651FE /* Framework.swift in Sources */,
-				EC3C062E2AC7563C006651FE /* FrameworkTitleView.swift in Sources */,
 				EC3C061E2AC75369006651FE /* FrameworksGuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
