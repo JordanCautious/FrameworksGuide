@@ -57,11 +57,11 @@
 		EC3C061C2AC75369006651FE /* FrameworksGuide */ = {
 			isa = PBXGroup;
 			children = (
+				EC3C061D2AC75369006651FE /* FrameworksGuideApp.swift */,
 				EC3C061F2AC75369006651FE /* ContentView.swift */,
 				EC3C06332AC785C2006651FE /* ContentViewmodel.swift */,
 				EC3C062B2AC753A1006651FE /* Framework.swift */,
 				EC3C062F2AC75F4B006651FE /* FrameworkDetailView.swift */,
-				EC3C061D2AC75369006651FE /* FrameworksGuideApp.swift */,
 				EC3C06212AC7536B006651FE /* Assets.xcassets */,
 				EC3C06232AC7536B006651FE /* Preview Content */,
 			);
