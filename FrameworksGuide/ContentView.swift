@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingSheet = false
+    
     let columns: [GridItem] = [GridItem(.flexible()),
                                GridItem(.flexible()),
                                GridItem(.flexible()),]
@@ -18,8 +20,10 @@ struct ContentView: View {
                 LazyVGrid(columns: columns) {
                     ForEach(MockData.frameworks) { framework in
                         FrameworkTitleView(framework: framework)
+                            .onTapGesture {
+                                print("Placeholder")
+                            }
                     }
-                    
                 }
             }
             .navigationTitle(" 🍎 Apple Frameworks")
